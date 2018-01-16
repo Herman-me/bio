@@ -1,0 +1,116 @@
+@font-face {
+    font-family:'DANAYekan';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/yekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('bYekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('b Yekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/yekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/yekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/yekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/yekan.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+body {
+    font-family:'DANAYekan';
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #9b59b6;
+	  direction:rtl;
+    padding: 0;
+    margin: 0;
+}
+#nav-container{
+  float:right;
+}
+#nav-logo{
+  height: 40px;
+  width: 40px;
+  margin-top: -11px;
+
+}
+#nav-container ul{
+
+}
+.navbar-header{
+  margin-top:-2px;
+}
+
+#header-1{
+  height: 600px;
+  background:url('../img/slider1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+#header1-text{
+  background-color:#f5f5f5;
+  margin-right: 25%;
+  margin-top: 10%;
+  height: 300px;
+  max-height: 100%;
+  border-radius:5px;
+
+}
+#header1-form-title{
+  text-align:center;
+  height: 15%;
+  border-bottom:1px solid lightgray;
+
+}
+#header1-form-title p{
+  filter:blur(.03em);
+  font-size:19px;
+  height: auto;
+  width: auto;
+  padding: 5px;
+
+}
+label{
+  font-style:normal;
+  font-size: 12px;
+}
+#header1-form{
+  height: auto;
+  width: auto;
+  margin-top:10%;
+  margin-right:10%;
+}
+#header1-form input[type='text']{
+  border: 1px solid lightgray;
+  padding:5px;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 100%;
+}
+#header1-form input[type='datetime']{
+  border: 1px solid lightgray;
+  padding:5px;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 100%;
+}
+#header1-form input[type='submit']{
+
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color:blue;
+  padding: 8px;
+  float: left;
+  color:white;
+
+
+}
+#mehdi{
+  border-right:1px solid red;
+}

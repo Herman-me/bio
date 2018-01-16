@@ -1,0 +1,35 @@
+body{
+  padding:0;
+  margin:0;
+  direction:rtl;
+  /*background-color:#f5f7f5;*/
+  font-family:'IRANSansWeb' !important  ;
+  background: linear-gradient(to right ,  #4CA4FF , #7A8Eff);
+  /*background-size:cover;*/
+  /*background-repeat: no-repeat;*/
+  height: 100%;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  opacity: 1;
+
+}
+
+@font-face {
+    font-family:'IRANSansWeb';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/IRANSansWeb.ttf');/*اکسپلورر 9 به بعد*/
+    src:local('IRANSansWeb'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('IRANSansWeb'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/IRANSansWeb.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/IRANSansWeb.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/IRANSansWeb.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+  }
+
+
+/*index Styles for Our page  Just index*/
+.header{
+  padding:50px solid;
+}
