@@ -4,7 +4,7 @@ body{
   direction:rtl;
   /*background-color:#f5f7f5;*/
   font-family:'IRANSansWeb' !important  ;
-  background: linear-gradient(to right ,  #4CA4FF , #7A8Eff);
+  background: #eee;
   /*background-size:cover;*/
   /*background-repeat: no-repeat;*/
   height: 100%;
@@ -27,10 +27,17 @@ body{
     font-style:normal;
     font-weight:normal;
   }
-  
+
 
 
 /*index Styles for Our page  Just index*/
 .header{
   padding:50px solid;
+}
+
+.block img{
+  display : block;
+  margin: 60px auto;
+  width: 1170px;
+  max-width: 100%;
 }
