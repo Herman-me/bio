@@ -4,7 +4,7 @@ body{
   direction:rtl;
   /*background-color:#f5f7f5;*/
   font-family:'IRANSansWeb' !important  ;
-  background: #eee;
+  background: linear-gradient(to right , #9D50BB , #6E48AA);
   /*background-size:cover;*/
   /*background-repeat: no-repeat;*/
   height: 100%;
@@ -40,4 +40,9 @@ body{
   margin: 60px auto;
   width: 1170px;
   max-width: 100%;
+}
+
+
+nav{
+  background-color:blue !important;
 }
