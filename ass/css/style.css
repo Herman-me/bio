@@ -44,5 +44,12 @@ body{
 
 
 nav{
-  background-color:blue !important;
+  background-color:#9D50BB  !important;
+}
+
+.navbar-header a{
+  color:white !important;
+}
+.navbar-inverse .navbar-nav li a{
+  color:white;
 }
