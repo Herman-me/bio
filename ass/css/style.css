@@ -1,3 +1,16 @@
+@font-face {
+    font-family:'BRoya';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BRoya.ttf');/*اکسپلورر 9 به بعد*/
+    src:local('BRoya'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('BRoya'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BRoya.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BRoya.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BRoya.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/BRoya.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+  }
+
 body{
   padding:0;
   margin:0;
@@ -27,6 +40,20 @@ body{
     font-style:normal;
     font-weight:normal;
   }
+
+
+  @font-face {
+      font-family:'BRoya';/*تعریف یک نام برای فونت*/
+      src:url('../fonts/BRoya.ttf');/*اکسپلورر 9 به بعد*/
+      src:local('BRoya'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+          local('BRoya'),/*برای برخی از مرورگرها مانند سافاری*/
+          url('../fonts/BRoya.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+          url('../fonts/BRoya.woff') format('woff'),/*مرورگر های جدید*/
+          url('../fonts/BRoya.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+          url('../fonts/BRoya.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+      font-style:normal;
+      font-weight:normal;
+    }
 
 /* استایل های کلی */
 p{
@@ -94,12 +121,13 @@ nav{
   float:left;
 }
 .whatIDo{
-  background: linear-gradient(to right , #00c6ff , #0072ff);
+  background: white;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding:50px;
+  /* padding:50px; */
+  overflow: hidden;
 }
 .block{
   text-align: center;
@@ -110,4 +138,20 @@ nav{
   margin-bottom: 20px;
   /* background-color: #00c6ff; */
   border: 1px solid white;
+}
+.box{
+  padding:10px;
+  border: 2px solid #3E6B95;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.box p {
+  color:#3E6B95 !important;
+
+}
+.box img{
+  width: 100px;
+  float: right;
+  margin-left: 5px;
+
 }
