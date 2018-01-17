@@ -4,7 +4,7 @@ body{
   direction:rtl;
   /*background-color:#f5f7f5;*/
   font-family:'IRANSansWeb' !important  ;
-  background: linear-gradient(to right , #9D50BB , #6E48AA);
+  background: linear-gradient(to right , #00c6ff , #0072ff);
   /*background-size:cover;*/
   /*background-repeat: no-repeat;*/
   height: 100%;
@@ -28,23 +28,36 @@ body{
     font-weight:normal;
   }
 
-
+/* استایل های کلی */
+p{
+  color:#797d80;
+  font-weight: 400;
+  line-height: 27px;
+  padding:0;
+}
+h1,h2,h3,h4,h5{
+  color:#616568;
+  font-weight: 600600;
+}
 
 /*index Styles for Our page  Just index*/
 .header{
-  padding:50px solid;
+  /* padding:50px; */
+  padding-bottom: 20px;
+  overflow: hidden;
 }
 
 .block img{
   display : block;
-  margin: 60px auto;
+  margin:  auto;
   width: 1170px;
   max-width: 100%;
 }
 
 
 nav{
-  background-color:#9D50BB  !important;
+  background-color:transparent  !important;
+  border: none !important;
 }
 
 .navbar-header a{
@@ -52,4 +65,49 @@ nav{
 }
 .navbar-inverse .navbar-nav li a{
   color:white;
+}
+
+.content{
+  background-image: url('../img/background.jfif');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  padding:50px;
+}
+
+.info{
+  width: auto;
+  height: auto;
+  display: block;
+  float: none;
+  margin: auto;
+  padding:30px;
+  background-color:#fff;
+  border-radius: 3px;
+}
+.pic{
+  text-align: left;
+}
+.pic img{
+  width: 130px;
+  max-width: 100%;
+  float:left;
+}
+.whatIDo{
+  background: linear-gradient(to right , #00c6ff , #0072ff);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding:50px;
+}
+.block{
+  text-align: center;
+}
+.block button{
+  padding:10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  /* background-color: #00c6ff; */
+  border: 1px solid white;
 }
