@@ -1,15 +1,4 @@
-@font-face {
-    font-family:'BRoya';/*تعریف یک نام برای فونت*/
-    src:url('../fonts/BRoya.ttf');/*اکسپلورر 9 به بعد*/
-    src:local('BRoya'),/*بررسی نصب بودن فونت در سیستم کاربر*/
-        local('BRoya'),/*برای برخی از مرورگرها مانند سافاری*/
-        url('../fonts/BRoya.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
-        url('../fonts/BRoya.woff') format('woff'),/*مرورگر های جدید*/
-        url('../fonts/BRoya.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
-        url('../fonts/BRoya.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
-    font-style:normal;
-    font-weight:normal;
-  }
+
 
 body{
   padding:0;
@@ -70,7 +59,7 @@ h1,h2,h3,h4,h5{
 /*index Styles for Our page  Just index*/
 .header{
   /* padding:50px; */
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 
@@ -128,6 +117,7 @@ nav{
   background-attachment: fixed;
   /* padding:50px; */
   overflow: hidden;
+  padding-bottom: 60px;
 }
 .block{
   text-align: center;
@@ -153,5 +143,9 @@ nav{
   width: 100px;
   float: right;
   margin-left: 5px;
-
+}
+.trust{
+  background:linear-gradient(to right , #b3481c , #b3482c);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
