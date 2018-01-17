@@ -6,7 +6,7 @@ body{
   direction:rtl;
   /*background-color:#f5f7f5;*/
   font-family:'IRANSansWeb' !important  ;
-  background: linear-gradient(to right , #00c6ff , #0072ff);
+  background: linear-gradient(to right , #b3481c , #b3452c);
   /*background-size:cover;*/
   /*background-repeat: no-repeat;*/
   height: 100%;
@@ -84,7 +84,7 @@ nav{
 }
 
 .content{
-  background-image: url('../img/background.jfif');
+  background: #b3481c;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position:center;
