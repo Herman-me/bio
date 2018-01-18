@@ -149,3 +149,19 @@ nav{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.block{
+  overflow: hidden;
+  height: 600px;
+}
+.slide{
+	position:absolute;
+}
+
+.slide-copy{
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:20px;
+	background:7f7f7f;
+	background: rgba(0,0,0,0.5);
+}
